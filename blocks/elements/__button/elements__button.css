@@ -1,0 +1,16 @@
+.elements__button {
+  background-image: url(../../../images/like.svg);
+  padding: 0;
+  margin-right: 20px;
+  border: none;
+  background-color: #ffffff;
+  width: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.elements__button:active {
+  background-image: url(../../../images/Union.svg);
+}
+.elements__button:hover {
+  opacity: 0.5;
+}
