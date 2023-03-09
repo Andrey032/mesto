@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Место</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="root">
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/logo/logo.svg" alt="Логотип Место России">
+      <div class="header__line"></div>
+    </header>
+
+    <main class="content">
+      <section class="profile">
+        <div class="profile__avatar"></div>
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <p class="profile__profession">Исследователь океана</p>
+          <button class="profile__edit-button"></button>
+        </div>
+        <button class="profile__add-button"></button>
+      </section>
+      <section>
+        <ul class="elements">
+          <li class="elements__card">
+            <img class="elements__img" src="./images/kirill-pershin-1088404-unsplash.jpg"
+              alt="Фотография крепости в Карачаевске">
+            <div class="elements__card-item">
+              <h2 class="elements__title">Карачаевск</h2>
+              <button class="elements__button"></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__img" src="./images/kirill-pershin-1404681-unsplash.jpg"
+              alt="Гора Эльбрус на фоне заката">
+            <div class="elements__card-item">
+              <h2 class="elements__title">Гора Эльбрус</h2>
+              <button class="elements__button"></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Пик горы в снегу">
+            <div class="elements__card-item">
+              <h2 class="elements__title">Домбай</h2>
+              <button class="elements__button"></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__img" src="./images/marek-piwnicki-86DSyErIb_0-unsplash.jpg" alt="Фото горной дамбы">
+            <div class="elements__card-item">
+              <h2 class="elements__title">Дамба в горах</h2>
+              <button class="elements__button"></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__img" src="./images/marek-piwnicki-AA_2vx1DPrM-unsplash(1).jpg"
+              alt="Фото горного массива">
+            <div class="elements__card-item">
+              <h2 class="elements__title">Горный массив</h2>
+              <button class="elements__button"></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__img" src="./images/samuel-jeronimo-2Gz_qwbbnKM-unsplash.jpg"
+              alt="фото океана на закате в бухте">
+            <div class="elements__card-item">
+              <h2 class="elements__title">Океан на закате</h2>
+              <button class="elements__button"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__author">&copy; 2023 Кабишев Андрей</p>
+    </footer>
+  </div>
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__close-button" type="button"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form" name="form" method="post">
+        <fieldset class="popup__contact-info">
+          <input class="popup__name popup__input_name" type="text" name="name" value="Жак-Ив Кусто" placeholder="Имя"
+            required>
+          <input class="popup__name popup__input_job" type="text" name="job" value="Исследователь океана"
+            placeholder="О себе" required>
+          <button class="popup__button" type="submit">Сохранить</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>
