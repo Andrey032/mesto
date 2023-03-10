@@ -12,7 +12,7 @@
 <body class="root">
   <div class="page">
     <header class="header">
-      <img class="header__logo" src="./images/logo/logo.svg" alt="Логотип Место России">
+      <img class="header__logo" src="./images/logo/logo.svg" alt="Логотип Место России.">
     </header>
 
     <main class="content">
@@ -21,56 +21,56 @@
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <p class="profile__profession">Исследователь океана</p>
-          <button class="profile__edit-button"></button>
+          <button class="profile__edit-button" type="button" aria-label="Редактировать профиль"></button>
         </div>
-        <button class="profile__add-button"></button>
+        <button class="profile__add-button" type="button" aria-label="Добавить фотографии"></button>
       </section>
       <section>
         <ul class="elements">
           <li class="elements__card">
             <img class="elements__img" src="./images/kirill-pershin-1088404-unsplash.jpg"
-              alt="Фотография крепости в Карачаевске">
+              alt="Крепость в Карачаевске окружена горами.">
             <div class="elements__card-item">
               <h2 class="elements__title">Карачаевск</h2>
-              <button class="elements__button"></button>
+              <button class="elements__button" type="button" aria-label="Нравится"></button>
             </div>
           </li>
           <li class="elements__card">
             <img class="elements__img" src="./images/kirill-pershin-1404681-unsplash.jpg"
-              alt="Гора Эльбрус на фоне заката">
+              alt="Гора Эльбрус на фоне заката.">
             <div class="elements__card-item">
               <h2 class="elements__title">Гора Эльбрус</h2>
-              <button class="elements__button"></button>
+              <button class="elements__button" type="button" aria-label="Нравится"></button>
             </div>
           </li>
           <li class="elements__card">
-            <img class="elements__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Пик горы в снегу">
+            <img class="elements__img" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Пик горы в снегу.">
             <div class="elements__card-item">
               <h2 class="elements__title">Домбай</h2>
-              <button class="elements__button"></button>
+              <button class="elements__button" type="button" aria-label="Нравится"></button>
             </div>
           </li>
           <li class="elements__card">
-            <img class="elements__img" src="./images/marek-piwnicki-86DSyErIb_0-unsplash.jpg" alt="Фото горной дамбы">
+            <img class="elements__img" src="./images/marek-piwnicki-86DSyErIb_0-unsplash.jpg"
+              alt="Горное водохранилище ограждённая дамбой.">
             <div class="elements__card-item">
               <h2 class="elements__title">Дамба в горах</h2>
-              <button class="elements__button"></button>
+              <button class="elements__button" type="button" aria-label="Нравится"></button>
             </div>
           </li>
           <li class="elements__card">
-            <img class="elements__img" src="./images/marek-piwnicki-AA_2vx1DPrM-unsplash(1).jpg"
-              alt="Фото горного массива">
+            <img class="elements__img" src="./images/marek-piwnicki-AA_2vx1DPrM-unsplash(1).jpg" alt="Горный массив.">
             <div class="elements__card-item">
               <h2 class="elements__title">Горный массив</h2>
-              <button class="elements__button"></button>
+              <button class="elements__button" type="button" aria-label="Нравится"></button>
             </div>
           </li>
           <li class="elements__card">
             <img class="elements__img" src="./images/samuel-jeronimo-2Gz_qwbbnKM-unsplash.jpg"
-              alt="фото океана на закате в бухте">
+              alt="Океан на закате в бухте.">
             <div class="elements__card-item">
               <h2 class="elements__title">Океан на закате</h2>
-              <button class="elements__button"></button>
+              <button class="elements__button" type="button" aria-label="Нравится"></button>
             </div>
           </li>
         </ul>
@@ -80,21 +80,19 @@
       <p class="footer__author">&copy; 2023 Кабишев Андрей</p>
     </footer>
   </div>
-  <section class="popup">
+  <div class="popup">
     <div class="popup__container">
-      <button class="popup__close-button" type="button"></button>
+      <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
       <form class="popup__form" name="form" method="post">
         <fieldset class="popup__contact-info">
-          <input class="popup__name popup__name_input_name" type="text" name="name" value="Жак-Ив Кусто"
-            placeholder="Имя" required>
-          <input class="popup__name popup__name_input_job" type="text" name="job" value="Исследователь океана"
-            placeholder="О себе" required>
-          <button class="popup__button" type="submit">Сохранить</button>
+          <input class="popup__name popup__name_input_name" type="text" name="name" placeholder="Имя" required>
+          <input class="popup__name popup__name_input_job" type="text" name="job" placeholder="О себе" required>
+          <button class="popup__button" type="submit" aria-label="Сохранить">Сохранить</button>
         </fieldset>
       </form>
     </div>
-  </section>
+  </div>
   <script src="./scripts/index.js"></script>
 </body>
 

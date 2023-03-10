@@ -1,6 +1,5 @@
 .elements__card-item {
-  padding-top: 25px;
-  padding-left: 21px;
+  margin: 25px 15px 0 21px;
   display: flex;
   justify-content: space-between;
 }

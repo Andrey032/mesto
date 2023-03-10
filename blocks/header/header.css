@@ -3,7 +3,7 @@
   width: 100%;
   margin: 0 auto;
   padding-top: 45px;
-  border-bottom: 1px solid #54545470;
+  border-bottom: 1px solid rgba(54, 54, 54, 70%);
 }
 @media screen and (max-width: 900px) {
   .header {
