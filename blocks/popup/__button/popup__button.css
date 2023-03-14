@@ -10,6 +10,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  cursor: pointer;
 }
 .popup__button:hover {
   opacity: 0.8;
